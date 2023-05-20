@@ -1,0 +1,537 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.gap{
+    width: 100%;
+    height: 25px;
+    display: block;
+}
+
+.sub-heading-1{
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.color-white{
+    color: white;
+}
+
+.color-gray{
+    color: gray;
+}
+
+.sub-heading-2{
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.sub-heading-3{
+    font-size: 20px;
+    font-weight: 700;
+    display: block;
+}
+
+.text-input-1{
+    width: 100%;
+    height: 60px;
+    border: solid 1px #000000;
+    padding: 10px;
+    margin-top: 25px;
+    outline: none;
+    font-size: 20px;
+}
+
+.span-button-1{
+    width: 100%;
+    height: 65px;
+    display: block;
+    background: #ff0000;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 65px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.row-arrangement{
+    width: 100%;
+    min-height: 2px;
+}
+
+.card-design-1{
+    width: 100%;
+    min-height: 120px;
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 15px;
+    display: inline-block;
+}
+
+.main-container{
+    width: 100%;
+    min-height: 100vh;
+}
+.headerContainer{
+    width: 100%;
+    height: 100px;
+    background-color: #eaff00;
+}
+.header-text{
+    color: black;
+    display: block;
+    line-height: 80px;
+}
+
+
+.product-payment-container{
+    width: 100%;
+    background-color: #1B012E;
+    padding: 0px 25px 0px 25px;
+}
+
+.product-details-container{
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+}
+
+.product-banner{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.product-title{
+    font-size: 40px;
+    font-weight: 900;
+    color: #000000;
+    line-height: 100px;
+    margin-left: 50px;
+    text-transform: uppercase;
+}
+.payment-details-container{
+    width: 100%;
+    height: 100%;
+    padding: 0px 25px 0px 25px;
+}
+.pay-details{
+    background: #ffffff;
+}
+.pay-details-part-2{
+    padding: 20px;
+}
+.pay-details-part-1{
+    width: 100%;
+    height: 70px;
+    background: #eaff00;
+    padding-left: 25px;
+}
+.discount-tag{
+    display: block;
+    width: 100%;
+    line-height: 70px;
+    color: black;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.why-to-choose{
+    background: #130017;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100px;
+    padding: 25px;
+}
+.section-2-heading-container{
+    width: 100%;
+    text-align: center;
+}
+.buy-now-action-container{
+    width: 100%;
+    height: 150px;
+    background: #eaff00;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+.time-container-main{
+    width: 100%;
+    min-height: 10px;
+    padding: 25px;
+}
+.timer-container{
+    width: 100%;
+    min-height: 10px;
+    background: #000000;
+    padding: 15px;
+    text-align: center;
+    border-radius: 25px;
+}
+.timer-text{
+    width: 100%;
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 900;
+    display: block;
+}
+.timer-text-tag{
+    text-align: center;
+    display: block;
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+}
+.buy-now-action-button{
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 10px;
+    color: white;
+    background: red;
+    cursor: pointer;
+    display: block;
+    font-size: 35px;
+    font-weight: 900;
+    text-align: center;
+}
+.product-overview-container{
+    width: 100%;
+    min-height: 150px;
+    background: none;
+}
+.section-3-sub-section-1{
+    width: 100%;
+    height: 300px;
+    background: #ffffff;
+}
+.section-3-sub-section-1-heading{
+    width: 100%;
+    height: 100px;
+    background: none;
+    display: block;
+    text-align: left;
+    font-size: 25px;
+    color: black;
+    font-weight: 800;
+    line-height: 100px;
+    padding-left: 25px;
+}
+.section-3-sub-section-1-content{
+    width: 100%;
+    height: 100%;
+    padding: 0px 25px 25px 25px;
+}
+.section-3-sub-section-1-content ul li{
+    font-size: 18px;
+    font-weight: 600;
+    display: block;
+    height: 35px;
+
+}
+.facebook-page-list-design{
+    width: 100%;
+    height: auto;
+}
+.offer-count-down-section{
+    width: 100%;
+    min-height: 130px;
+    background: #1B012E;
+    background-repeat: no-repeat;
+}
+.text-cutt-through{
+    text-decoration: line-through;
+    text-decoration-color: #ff0000;
+    color: #eaff00;
+    font-size: 25px;
+    font-weight: 800;
+    text-decoration-thickness: 2px;
+}
+.text-offer-price{
+    color: #eaff00;
+    font-size: 25px;
+    font-weight: 800;
+}
+.count-down-timer-1-container{
+    width: 100%;
+    padding: 15px;
+
+}
+.count-downer-time-box-1{
+    display: block;
+    width: 100;
+    min-height: 10px;
+    border: solid 1px black;
+    border-radius: 5px;
+    background: #ffffff;
+    text-align: center;
+    padding: 4px;
+}
+.count-down-timer-display-text-1{
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #b73b3b;
+    font-size: 18px;
+    font-weight: 800;
+}
+.count-down-timer-display-text-tag-1{
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: -5px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.gap-1{
+    display: block;
+    margin-top: 50px;
+}
+
+
+.shake-button{
+    font-size: 25px;
+    border-radius: 5px;
+    padding: 5px 15px;
+    color: #fff;
+    animation: shake 1.5s ease-in infinite;
+    background: #ff0000;
+    border: none;
+}
+.button-2{
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 4px 10px;
+    color: #fff;
+    animation: shake 1.5s ease-in infinite;
+    background: #ff0000;
+    border: none;
+}
+
+/*
+Mobile View
+*/
+.mobile-offer-timer-container{
+    display: none;
+}
+.mobile-header-title-container{
+    display: none;
+}
+.mobile-bottom-pay-now-action-container-1{
+    display: none;
+}
+.mobile-description-container-1{
+    display: none;
+}
+.mobile-price-drop-alert-1{
+    display: none;
+}
+
+
+@keyframes shake{
+    0%{
+        transform: translate(0);
+    }
+    20%,
+    40%,
+    60%,
+    80%{
+        transform: translate(0.8em);
+        box-shadow: 0px 6px 20px #1B012E;
+    }
+    10%,
+    30%,
+    50%{
+        transform: translate(-0.2em);
+    }
+    70%,
+    100%{
+        transform: translate(0);
+    }
+}
+
+.original-price-cutt-through-1{
+    font-size: 35px;
+    font-weight: 900;
+    color: gray;
+    text-decoration: line-through;
+    text-decoration-color: red;
+    text-decoration-thickness: 3px;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .card-design-1{
+        margin-top: 10px;
+    }
+
+    .main-container{
+        margin-bottom: 130px;
+    }
+
+    .product-payment-container{
+        padding: 0px;
+    }
+    .headerContainer{
+        display: none;
+    }
+    .offer-count-down-section{
+        display: none;
+    }
+    .payment-details-container{
+        padding: 0px;
+        margin-top: 10px;
+        display: none;
+    }
+
+    .mobile-offer-timer-container{
+        display: block;
+        width: 100%;
+        min-height: 10px;
+        padding: 15px;
+        background: #1B012E;
+    }
+    .mobile-header-title-container{
+        display: block;
+        width: 100%;
+        min-height: 60px;
+        background: #eaff00;
+        padding: 10px;
+        color: #000000;
+        font-size: 20px;
+        font-weight: 800;
+    }
+    .mobile-timer-card-1{
+        width: 100%;
+        min-height: 5px;
+        background: #ffffff;
+        color: #b73b3b;
+        text-align: center;
+        display: block;
+        font-size: 15px;
+        font-weight: 800;
+        border-radius: 5px;
+        padding: 4px 2px 4px 2px;
+    }
+    .mobile-offer-text-1{
+        color: #ffffff;
+        font-size: 25px;
+        font-weight: 800;
+    }
+    .text-cut-through-1{
+        text-decoration: line-through;
+        text-decoration-color: red;
+        text-decoration-thickness: 2px;
+    }
+    .mobile-timer-tag-1{
+        display: block;
+        text-align: left;
+        color: #ffffff;
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .mobile-timer-display-text-1{
+        display: block;
+        text-align: center;
+        color: #b73b3b;
+        font-size: 15px;
+        font-weight: 800;
+    }
+    .mobile-timer-display-text-tag-1{
+        display: block;
+        text-align: center;
+        color: #b73b3b;
+        font-size: 13px;
+        font-weight: 400;
+        margin-top: -10px;
+        margin-top: 5px;
+    }
+    .mobile-bottom-pay-now-action-container-1{
+        width: 100%;
+        height: 130px;
+        background: #ffffff;
+        border-top: 1px #dcdcdc solid;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        padding: 10px;
+        display: block;
+    }
+    .mobile-pay-now-button-1{
+        width: 100%;
+        height: 50px;
+        color: #ffffff;
+        background: #f57302;
+        border-radius: 10px;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 50px;
+        margin-top: 10px;
+    }
+    .gap-1{
+        margin-top: 0px;
+    }
+    .product-overview-container{
+        display: none;
+    }
+    .mobile-description-container-1{
+        width: 100%;
+        min-height: 50px;
+        display: block;
+    }
+    .mobile-benefits-card-title-1{
+        font-size: 15px;
+        font-weight: 800;
+        color: #ffffff;
+        display: block;
+        margin-bottom: 10px;
+        margin-top: 25px;
+    }
+    .mobile-benefits-card-design-1{
+        width: 100%;
+        min-height: 10px;
+        padding: 10px;
+        text-align: left;
+        font-size: 15px;
+        font-weight: 400;
+        color: black;
+        border-radius: 10px;
+        background: #ffffff;
+    }
+    .mobile-price-drop-alert-1{
+        display: block;
+        width: 100%;
+        min-height: 10px;
+        padding: 10px;
+        background: #eaff00;
+    }
+    .mobile-original-price-tag-1{
+        font-size: 25px;
+        font-weight: 900;
+        color: black;
+    }
+
+  }
+
+  @-webkit-keyframes blinker {
+    from {opacity: 1.0;}
+    to {opacity: 0.0;}
+  }
+  .mobile-hurry-up-1{
+      text-decoration: blink;
+      -webkit-animation-name: blinker;
+      -webkit-animation-duration: 0.6s;
+      -webkit-animation-iteration-count:infinite;
+      -webkit-animation-timing-function:ease-in-out;
+      -webkit-animation-direction: alternate;
+      color: #ff0000;
+      font-size: 25px;
+      font-weight: 800;
+  }
