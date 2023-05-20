@@ -95,7 +95,7 @@
                 <div class="col-3" style="text-align: center;">
                     <span class="gap"></span>
                     <span style="display: block; color: #fff; font-weight: 15px; text-align: center;">Grow your facebook page or Instagram Profile with these copyright free reels. 250+ Facebook pages monetized already.</span>
-                    <button class="shake-button" type="button">BUY NOW</button>
+                    <button class="shake-button" id="buy-now-button-1" onclick="payNow()" type="button">BUY NOW</button>
                 </div>
                 <div class="col-1"></div>
             </div>
@@ -166,7 +166,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <span class="span-button-1">Make Payment</span>
+                                    <span class="span-button-1" onclick="payNow()">Make Payment</span>
                                     <span class="gap"></span>
                                 </div>
                             </div>
@@ -185,7 +185,7 @@
                         <span class="mobile-hurry-up-1">₹499</span>
                     </div>
                     <div class="col-5">
-                        <button class="button-2" type="button">Hurry Up!</button>
+                        <button class="button-2" onclick="payNow()" type="button">Hurry Up!</button>
                     </div>
                 </div>
                 
@@ -310,7 +310,7 @@
                             <div class="col-3" style="text-align: center;">
                                 <span class="gap"></span>
                                 <span style="display: block; color: #fff; font-weight: 15px; text-align: center;">Grow your facebook page or Instagram Profile with these copyright free reels. 250+ Facebook pages monetized already.</span>
-                                <button class="shake-button" type="button">BUY NOW</button>
+                                <button class="shake-button" onclick="payNow()" type="button">BUY NOW</button>
                             </div>
                             <div class="col-1"></div>
                         </div>
@@ -348,7 +348,7 @@
                                 <span class="mobile-hurry-up-1">₹499</span>
                             </div>
                             <div class="col-5">
-                                <button class="button-2" type="button">Hurry Up!</button>
+                                <button class="button-2" onclick="payNow()" type="button">Hurry Up!</button>
                             </div>
                         </div>
                         
@@ -388,7 +388,7 @@
                                     <span class="mobile-hurry-up-1">₹499</span>
                                 </div>
                                 <div class="col-5">
-                                    <button class="button-2" type="button">Hurry Up!</button>
+                                    <button class="button-2" onclick="payNow" type="button">Hurry Up!</button>
                                 </div>
                             </div>
                             
@@ -452,7 +452,7 @@
                         <div class="col-3" style="text-align: center;">
                             <span class="gap"></span>
                             <span class="gap"></span>
-                            <button class="shake-button" type="button">BUY NOW</button>
+                            <button class="shake-button" onclick="payNow()" type="button">BUY NOW</button>
                         </div>
                         <div class="col-1"></div>
                     </div>
@@ -478,7 +478,7 @@
             </div>
         </div>
         
-        <div class="mobile-pay-now-button-1">
+        <div class="mobile-pay-now-button-1" onclick="payNow()">
             <span>Pay Now</span>
         </div>
     </div>
@@ -523,6 +523,15 @@
 
 
     }, 1000);
+
+    //redirect to new page
+
+    function payNow(){
+        location.href = "https://pages.razorpay.com/pl_LrnfTSpp9HC8xU/view";
+    }
+
+
+
     </script>
 </body>
 </html>
